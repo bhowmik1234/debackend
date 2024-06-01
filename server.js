@@ -19,7 +19,7 @@ app.use(bodyParser.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 
 const corsOptions = {
-    origin: "*",
+    origin: "https://deshareclient-ulyr-git-main-bhowmiks-projects.vercel.app",
 };
 
 app.use(Express.json());
